@@ -1,0 +1,114 @@
+
+<html>
+	<head>
+		<title>Registration form</title>
+		<style>
+		body{
+background-image:url('reglogo.jpg');
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+} 
+			label{
+			
+			}
+			input[type=text],input[type=password],input[type=date],select{
+				width:100%;
+				height:5%;
+				margin:8px 0px;
+				border-radius:4px;
+				border: 1px solid #ccc;
+				padding-left:10px;
+				font-size:1em;
+			}
+			input[type=reset] , input[type=submit]{
+				font-size:1.2em;
+				width: 40%;
+  				background-color: #808080;
+				color: white;
+  				padding: 7px 18px;
+				margin: 7px 7px;;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+				}
+			input[type=reset]:hover, input[type=submit]:hover {
+				background-color: #45a049;
+			}
+			.form{
+				padding-top:10px;
+				width:20%;
+				margin:auto;
+				font-size:1.2em;
+
+		</style>
+	</head>
+	<body style="background-color: #B3FFFF; margin:0px;" >
+	<img src="logo.png" height=10% align="right">
+	<font  size="6" face = "WildWest" color="blue" >  JOHNDEERE </FONT><br> JohnDeere Agricultural Machinery pvt.ltd
+	
+		<div style="min-height:75px; width:100%; background-color:#e9ecef;display:table;">
+			<h1 align=center style="display: table-cell; vertical-align: middle; text-align: center; width:100%; font-size:3em;">
+				<font color="blue" ><i>Registration Form</i></font>
+				
+			</h1>
+		</div>
+	<div>
+		<div class="form" >
+			<form><i>
+				<label><font color=	 #000000 color="green" style="background-color:lightblue">Full Name</font></label>
+					<br>
+				<input type="text"   id="name" required>
+					<br>
+					<label><font color=	 #000000 color="green" style="background-color:lightblue" >Email</font></label>
+					<br>
+					<input type="text"  id="email" required>
+					<br>
+				<label><font color=	 #000000 color="green" style="background-color:lightblue" >Date of Birth</font></label>
+					<br>
+				<input type="date"  id="dob"required>
+					<br>
+				<label><font color=	 #000000 color="green" style="background-color:lightblue" >Address</font></label>
+					<br>
+				<input type="text"  id="Address" required>
+					<br>
+				<label><font color=	 #000000 color="green" style="background-color:lightblue" >phone number</font></label>
+					<br>
+				<input type="text"  id="phno" required>
+					<br>
+				<label><font color=	 #000000 color="green" style="background-color:lightblue" >Gender</font></label>
+					<br>
+					<select id="gender">
+					<option value=""></option>
+					<option value="Male"><font color=	 #000000 >Male</font></option>
+					<option value="Female"><font color=	 #000000 >Female</font></option>
+				</select>
+				<br>
+				<label><font color=	 #000000 color="green" style="background-color:lightblue">Aadhar number</font></label>
+					<br>
+				<input type="text" id="Aadharnumber"  required>
+					<br>
+				<label><font color=	 #000000 color="green" style="background-color:lightblue" > Select Tractor Model</font></label>
+					<br>
+				<select id="model" placeholder="select model">
+					<option value=""></option>
+					<option value="jdmodel-5310d">j<font color="blue" >JdmodeL-5310</font></option>
+					<option value="jdmodel-5050e"><font color="blue" >jdmodel-5050</font></option>
+					<option value="jdmodel-5045d"><font color="blue" >jdmodel-5045</font></option>
+					<option value="jdmodel-5042d"><font color="blue" >jdmodel-5042</font></option>
+					<option value="jdmodel-5105"><font color="blue" >jdmodel-5105</font></option>
+					<option value="jdmodel-5405"><font color="blue" >jdmodel-5405</font></option>
+					<option value="jdmodel-5039"><font color="blue" >jdmodel-5039</font></option>
+					<option value="jdmodel-5103"><font color="blue" >jdmodel-5103</font></option>
+					<option value="jdmodel-5075e"><font color="blue" >jdmodel-5075e</font></option>
+				</select>
+					<br>	
+				<input type="checkbox" checked="checked" required> <label><font color="green" style="background-color:lightblue"  >I agree to the terms and conditions</font></label>
+					<br>
+				<input type=reset value=clear>
+				<input type=submit value=submit>
+				</i>
+			</form>
+		</div>
+	</div>
+</body></html>
